@@ -82,3 +82,30 @@ h2 {
     text-align: center;
     margin: 40px 0;
 }
+
+/* -----------FORMULARIO------------------- */
+/* Características generales del formulario */
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana;
+    padding: 20px;
+}
+
+
+legend {
+    font-family: "Street";
+    font-size: 14px;
+    color: rgb(237, 175,5);
+    margin-bottom: 10px
+}
+
+textarea {
+    width: 560px;
+}
