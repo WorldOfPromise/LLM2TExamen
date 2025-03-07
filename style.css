@@ -111,3 +111,16 @@ textarea {
     width: 560px;
 }
 
+
+.botones {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: "Street";
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}

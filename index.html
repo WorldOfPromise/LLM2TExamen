@@ -95,35 +95,102 @@
 
     <h2>Formulario de Inscripción para jugar a Street Fighter</h2>
 
-<div id="form">
-<form name="form">
-    <fieldset>
-        <legend>Datos Personales</legend>
-        <label for="nombre">Nombre:</label>
-        <p>
-            <input type="text" id="nombre" name="nombre">
-        </p>
-        <p>
-            <label for="apellidos">Apellidos:</label>
-        </p>
-        <p>
-            <input type="text" id="apellidos" name="apellidos">
-        </p>
-        <p>
-            <label for="direccion">Dirección Postal:</label>
-        </p>
+    <div id="form">
+        <form name="form">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <p>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos:</label>
+                <p>
+                    <input type="text" id="apellidos" name="apellidos">
+                </p>
+                <p>
+                    <label for="direccion">Dirección Postal:</label>
+                </p>
+                <p>
+                    <input type="text" name="direccion[]" placeholder="Calle">
+                    <input type="text" name="direccion[]" placeholder="Nº">
+                    <input type="text" name="direccion[]" placeholder="Piso">
+                    <input type="text" name="direccion[]" placeholder="Cód Postal">
+                    <input type="text" name="direccion[]" placeholder="Ciudad">
+                </p>
+                <p>
+                    <label for="nick">Nick:</label>
+                </p>
+                <p>
+                    <input type="text" id="nick" name="nick">
+                </p>
+                <p>
+                    <label for="email">Correo Electrónico:</label>
+                </p>
+                <p>
+                    <input type="email" id="email" name="email">
+                </p>
+            </fieldset>
 
+            <p>
+            <fieldset>
+                <legend>Sexo Usuario</legend>
+                <input type="radio" id="hombre" name="Sexo_Usuario" value="Hombre">
+                <label for="hombre">Hombre</label>
+                <br>
+                <input type="radio" id="mujer" name="Sexo_Usuario" value="Mujer">
+                <label for="mujer">Mujer</label>
+                <br>
+                <input type="radio" id="nodecir" name="Sexo_Usuario" value="Prefiero_No_Decir">
+                <label for="nodecir">Prefiero No Decir</label>
+            </fieldset>
+            </p>
 
+            <p>
+            <fieldset>
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha_nacimiento">
+            </fieldset>
+            </p>
 
+            <p>
+            <fieldset>
+                <legend>Personajes</legend>
+                <label for="personaje">Selecciona el personaje:</label>
+                <select id="personaje" name="personaje">
+                    <option value="Ken">Ken</option>
+                    <option value="Chun_Li">Chun Li</option>
+                    <option value="Zangief">Zangief</option>
+                    <option value="Dhalsim">Dhalsim</option>
+                    <option value="Ryu">Ryu</option>
+                    <option value="E_Honda">E Honda</option>
+                    <option value="Blanka">Blanka</option>
+                    <option value="Guille">Guille</option>
+                    <option value="T_Hawk">T Hawk</option>
+                    <option value="Feilong">Feilong</option>
+                    <option value="Dee_Jay">Dee Jay</option>
+                    <option value="Cammy">Cammy</option>
+                    <option value="Balrog">Balrog</option>
+                    <option value="Vega">Vega</option>
+                    <option value="Sagat">Sagat</option>
+                    <option value="Mbison">M Bison</option>
+                </select>
+            </fieldset>
+            </p>
 
+            <p>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="comentarios" rows="10"></textarea>
+            </fieldset>
+            </p>
 
-    </fieldset>
-
-
-</form>
-
-
-</div>
+            <p>
+                <input class="botones" type="submit" value="Enviar">
+                <input class="botones" type="reset" value="Borrar">
+            </p>
+        </form>
+    </div>
     
 </body>
 
