@@ -1,0 +1,30 @@
+@font-face {
+   font-family: "Street";
+   src: url("font/street.otf") 
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("img/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título de nivel 1 */
+h1 {
+    font-family: "Street";
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+    margin: 20px 0;
+}
